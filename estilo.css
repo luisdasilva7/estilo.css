@@ -1,0 +1,77 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   /* background-color: black;*/
+   /*background-image: url(https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg);*/
+   background-color: aqua;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+   background-attachment: local;
+   animation: mudarCores 5s infinite;
+
+   
+}
+img{
+    height: 200px;
+    width: 100%;
+    
+
+}
+main{
+   /* border: red 3px solid;*/
+    width: 70%;
+    margin: auto;
+    padding-left: 100px;
+    padding: 25px;
+    background-color: rgba(243, 248, 252, 0.33);
+    border-radius: 30px;
+    }
+    p{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(#e0ffff);
+    /*font-weight: bold;*/
+    /*font-style: oblique;*/
+    font-stretch: ultra-expanded;
+    line-height: 30px;
+   /* letter-spacing: 1px;*/
+    /*word-spacing: 15px;*/
+    text-align: justify;
+    text-decoration:underline dashed rgb(12, 24, 2);
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-shadow: 5px 2px 4px rgb(50, 49, 49);
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+
+
+
+    
+
+}
+footer p{
+    color: black;
+
+}
+@keyframes mudarCores {
+    0% {
+        background-color: rgb(red);
+    }
+    25% {
+        background-color: blueviolet;
+    }
+    58% {background-color: chartreuse;}
+    75% {background-color: orangered;}
+    100% { 
+        background-color: red;
+    }
+}
+    
